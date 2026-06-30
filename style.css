@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-style {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    background-color: #6FBF44;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+img {
+
+    width: 595.18px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+
+}
+
+div {
+    margin-left: 86px;
+    display: inline-block;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 24px;
+    margin-top: 47px;
+    margin-bottom: 55px
+}
+
+.button-main {
+    width: 124px;
+    height: 51px;
+    background-color: #6FBF44;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .link-style {
+        display: none;
+    }
+
+    .button-header {
+        display: block;
+        position: relative;
+        left: 70%;
+        
+    }
+
+    img {
+        width: 312px;
+        height: auto;
+        position: absolute;
+        top: 600px;
+        align-items: center;
+    }
+    div {
+        width: 50vh;
+        height: auto;
+       display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 20px;
+        margin-top: 100px;  
+        
+        
+    }
+     .title {
+        font-size: 30px;
+        line-height: 30px;
+        width: 278px;
+        height: auto;
+        margin: 58px 0px 0px 0px;
+        text-align: center;
+        letter-spacing: 0.6em;
+    }
+    .description {
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        height: auto;
+        margin: 15px 40px;
+        text-align: center;
+    }
+    
+    
+}
